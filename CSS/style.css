@@ -1,0 +1,21 @@
+ body {
+     background-color: #C8DBBE;
+ }
+
+ hr {
+     background-color: #C8DBBE;
+
+     border-style: None;
+     border-top: dotted;
+     border-top-color: cadetblue;
+     width: 8%;
+     border-width: 6px;
+ }
+
+ h1 {
+    color: #227C70;
+ }
+
+ h2 {
+     color: #144272;
+ }

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <h1>Escribe tus datos y tu pedido.</h1>
+    <form action="mailto:valejidesanti@gmail.com" method="post" enctype="text/plain">
+        <table>
+            <tr>                
+                <label><td><strong>Nombre:</strong></td></label>
+                <td><input type="text" name="Your name: " value=""></td>               
+            </tr>
+            <tr>
+                <label><td><strong>Teléfono:</strong></td></label>
+                <td><input type="text" name="Your phone: "></td>                
+            </tr>
+            <tr>
+                <label><td><strong>Email:</strong></td></label>
+                <td><input type="email" name="Your email: " value=""></td>                
+            </tr>
+        </table>    
+
+
+    <h2>Selecciona Sabores y Cantidad</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Sabor</th>
+                <th>Elegir</th>
+                <th>Cantidad</th>
+            </tr>
+
+        </thead>
+        
+        <tbody>
+            <tr>
+                <label>
+                    <td><strong>Verde</strong></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="number" min="0" max="200"></td>
+                </label>
+            </tr>
+            <tr>
+                <label>
+                    <td><strong>Rojo</strong></td>
+                </label>
+                <td><input type="checkbox"></td>
+                <td><input type="number" min="0" max="200"></td>
+            </tr>
+            <tr>
+                <label>
+                    <td><strong>Queso</strong></td>
+                </label>
+                <td><input type="checkbox"></td>
+                <td><input type="number" min="0" max="200"></td>
+            </tr>
+            <tr>
+                <label>
+                    <td><strong>Mole</strong></td>
+                </label>
+                <td><input type="checkbox"></td>
+                <td><input type="number" min="0" max="200"></td>
+            </tr>
+            <tr>
+                <label>
+                    <td><strong>Dulce</strong></td>
+                </label>
+                <td><input type="checkbox"></td>
+                <td><input type="number" min="0" max="200"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <td><input type="submit"></td><br>
+
+    <a href="index.html">Regresar</a>   
+
+
+    </form>
+</body>
+
+</html>
